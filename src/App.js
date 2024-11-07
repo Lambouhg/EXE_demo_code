@@ -9,6 +9,7 @@ import Cart from './compoments/ShoppingCart';
 import PaymentScreen from './compoments/PaymentScreen';
 import ThreeDModel from './compoments/ThreeDModel';
 import Profile from './compoments/Profile';
+import ModelViewer from './compoments/ModelViewer';
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/payment" element={<PaymentScreen />} />
         <Route path="/model" element={<ThreeDModel />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/model-viewer" element={<ModelViewer />} />
       </Routes>
     </Router>
   );
