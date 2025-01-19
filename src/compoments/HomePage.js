@@ -113,7 +113,7 @@ function HomePage() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 pt-8 mt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2024 Fashion Shop. All Rights Reserved.</p>
+          <p>&copy; 2024 Chicify. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
