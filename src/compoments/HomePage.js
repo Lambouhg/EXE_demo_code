@@ -119,7 +119,7 @@ function HomePage() {
     </div>
   );
 }
-
+// update code
 function ProductCard({ product, navigate }) {
   const handleAddToCart = (e) => {
     e.stopPropagation(); // Prevents the main card click event
